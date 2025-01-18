@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white; /* Matches the inline background-color */
+}
+
+/* Header Styling */
+header {
+    background-color: #003366; /* Dark blue background */
+    padding: 10px 20px;
+}
+
+header nav ul {
+    list-style: none; /* Removes default bullet points */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Horizontal navigation */
+}
+
+header nav ul li {
+    margin-right: 15px; /* Space between links */
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav a:hover {
+    text-decoration: underline; /* Underline on hover for better interactivity */
+}
+
+/* Main Content Styling */
+main {
+    padding: 20px;
+}
+
+/* Section Styling */
+section {
+    left margin: 0;
+    border-bottom: 1px solid #ccc; /* Divider for sections */
+    padding-bottom: 10px;
+}
+
+section h2 {
+    font-size: 22px;
+    color: #003366; /* Matches header color */
+    left margin: 0;
+}
+
+.bullet-list ul {
+    list-style: disc; /* Default bullet style */
+    padding-left: 20px; /* Indentation for bullet points */
+    color: #333;
+}
+
+.bullet-list ul li {
+    margin-bottom: 5px; /* Spacing between bullet points */
+}
+
+/* Google Map Embed Styling */
+iframe {
+    display: block;
+    left margin: 0;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Button Styling */
+button {
+    background-color: #003366;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #0055aa; /* Lighter blue on hover */
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    background-color: #003366;
+    color: white;
+    padding: 10px 0;
+    margin-top: 20px;
+}
